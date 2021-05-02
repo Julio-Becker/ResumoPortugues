@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); /* Primeiro importamos essa fonte do Google Fonts. */
+*  /* Primeiro vamos mudar algumas configurações padrão. E é desse jeito que fazemos comentários em CSS*/
+{
+	margin: 0;
+	padding: 0;
+}
+/* Vamos deixar o corpo do site do tamanho da tela do aparelho. Para isso vamos deixar a altura(height) e largura(width) como 100% da tela.*/
+body {
+	width: 100%;
+	min-height: 90vh; /* Diminuímos porque colocamos algumas margens pelo caminho :)*/
+	text-align: center; /* agora alinhamos o texto no centro da linha */
+	font-family: "Poppins", sans-serif;
+}
+
+h1,h2 {  
+	margin-top: 30px; /* Adiciona um espaço entre o topo da tela e a h1 e entre o topo do h2 e o h1.*/
+}
+
+.container { /* Centraliza nosso conteúdo na tela.*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.conteudo {
+	padding: 10px; /* Adiciona um espaço interno entre a borda e o texto*/
+	border:3px dashed green; /* Adiciona uma borda de 3px feita de traços na cor verde ao redor do conteúdo*/
+	margin: 20px 10px 0 10px; /* Adiciona margem de 20px ao topo, 10px à direita, 0 embaixo e 10 à esquerda*/
+	background-color: lightgreen; /* Coloca verde-claro como cor de fundo do conteúdo*/
+	width: 300px; /* Define uma largura igual para os blocos de conteúdo assim nenhum sai do padrão.*/
+	height: 600px; /* Define uma altura igual para os blocos de conteúdo assim nenhum sai do padrão.*/
+}
+
+.footer {
+	margin-top: 70px;
+}
